@@ -35,10 +35,44 @@
       background-color: #630a37;
       color: #f7f0ca;
     }
+
+    .caption {
+      display: inline-block;
+      color: black;
+      background-color: cyan;
+      padding: 8px;
+      font-size: 30px;
+    }
+
+    .caption.one {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    .caption.two {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .caption.three {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .caption.four {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
   </style>
   <script src='big.js'></script>
 </head>
 <body class='wine'>
-  <div>Your presentation goes here</div>
+  <div data-background-image="./imgs/xkcd1799.png">
+    <a class="caption one" href="https://www.xkcd.com/1799/">https://www.xkcd.com/1799/</a>
+  </div>
 </body>
 </html>
