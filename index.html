@@ -4,28 +4,26 @@
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
   <title>Drawn Maps | Maptime Boston</title>
-  <link href='big.css' rel='stylesheet' type='text/css' />
+  <link href='./assets/big.css' rel='stylesheet' type='text/css' />
   <style>
-    .new-shiny { background: #aaaaaa; }
-
     @font-face {
       font-family: 'Aleo';
-      src: url('./aleo-regular-webfont.eot');
-      src: url('./aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./aleo-regular-webfont.woff') format('woff'),
-        url('./aleo-regular-webfont.ttf') format('truetype'),
-        url('./aleo-regular-webfont.svg#aleoregular') format('svg');
+      src: url('./assets/aleo-regular-webfont.eot');
+      src: url('./assets/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./assets/aleo-regular-webfont.woff') format('woff'),
+        url('./assets/aleo-regular-webfont.ttf') format('truetype'),
+        url('./assets/aleo-regular-webfont.svg#aleoregular') format('svg');
       font-weight: normal;
       font-style: normal;
     }
 
     @font-face {
       font-family: 'Aleo';
-      src: url('./aleo-bold-webfont.eot');
-      src: url('./aleo-bold-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./aleo-bold-webfont.woff') format('woff'),
-        url('./aleo-bold-webfont.ttf') format('truetype'),
-        url('./aleo-bold-webfont.svg#aleobold') format('svg');
+      src: url('./assets/aleo-bold-webfont.eot');
+      src: url('./assets/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./assets/aleo-bold-webfont.woff') format('woff'),
+        url('./assets/aleo-bold-webfont.ttf') format('truetype'),
+        url('./assets/aleo-bold-webfont.svg#aleobold') format('svg');
       font-weight: bold;
       font-style: normal;
     }
@@ -76,29 +74,14 @@
       background-size: cover;
     }
   </style>
-  <script src='big.js'></script>
+  <script src='./assets/big.js'></script>
 </head>
 <body class='wine'>
-  <div>Some maps</div>
+  <div>Drawn maps</div>
   <div data-background-image="./imgs/deardata.jpeg">
     <a class="caption one" href="http://www.dear-data.com/by-week/#/week-21-a-week-of-our-cities/">http://www.dear-data.com/by-week/#/week-21-a-week-of-our-cities/</a>
+    <notes>Giorgia Lupi for Dear Data.</notes>
   </div>
-
-  <div>Opinionated</div>
-  <div data-background-image="./imgs/xkcd1799.png">
-    <a class="caption one" href="https://www.xkcd.com/1799/">https://www.xkcd.com/1799/</a>
-  </div>
-
-  <div data-background-image="./imgs/tweet1.png">
-    <a class="caption one" href="https://twitter.com/dmimno/status/1023973674926452739">https://twitter.com/dmimno/status/1023973674926452739</a>
-  </div>
-
-  <div data-background-image="./imgs/steinberg1976.jpg">
-    <a class="caption one" href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268605~90042794:The-New-Yorker--Steinberg--1976--Th#">View of the World From Ninth Avenue, The New Yorker, 1976</a>
-    <notes>Illustration by Saul Steinberg that served as the cover of the March 29, 1976, edition of The New Yorker</notes>
-  </div>
-
-  <div>Art</div>
   <div data-background-image="./imgs/emilygarfield3.jpg" data-bodyclass="background-cover">
     <a class="caption one" href="https://www.etsy.com/shop/keepcreating">https://www.etsy.com/shop/keepcreating</a>
     <notes>Emily Garfield creates intricate maps of imaginary places that explore the origins of cities and the function of maps themselves. Her drawings are inspired by the visual language of maps and the fractal similarity that cities share with biological processes such as the patterns of cells and neurons.</notes>
@@ -108,6 +91,26 @@
   </div>
   <div data-background-image="./imgs/emilygarfield2.jpg" data-bodyclass="background-cover">
     <a class="caption one" href="https://www.etsy.com/shop/keepcreating">https://www.etsy.com/shop/keepcreating</a>
+  </div>
+  <div data-background-image="./imgs/erwinraisz.png" data-bodyclass="background-cover">
+    <a class="caption one" href="http://www.raiszmaps.com/product/landforms-of-the-united-states/">Landforms of the United States, Erwin Raisz, 1957</a>
+    <notes>Carolyn Fish included this image in _her_ Maptime presentation on hand-drawn maps from years ago! Dr. Raisz wrote the first english language cartography textbook and masterfully used pen and ink.</notes>
+  </div>
+
+  <div>Opinionated</div>
+  <div>
+    <a class="caption two" href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268605~90042794:The-New-Yorker--Steinberg--1976--Th#">The Image of the City, Kevin Lynch, 1960</a>
+    <img src="./imgs/kevinlynch.jpg" />
+    <notes>Hand-drawn map of Boston indicating weak boundaries, bottomless towers, direction ambiguity and lack of relation. Lynch reported that users understood their surroundings in consistent and predictable ways, forming mental maps with five elements</notes>
+  </div>
+  <div>
+    <a class="caption two" href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~268605~90042794:The-New-Yorker--Steinberg--1976--Th#">View of the World From Ninth Avenue, The New Yorker, 1976</a>
+    <img src="./imgs/steinberg1976.jpg" />
+    <notes>Illustration by Saul Steinberg that served as the cover of the March 29, 1976, edition of The New Yorker</notes>
+  </div>  
+  <div>
+    <a class="caption one" href="https://twitter.com/dmimno/status/1023973674926452739">https://twitter.com/dmimno/status/1023973674926452739</a>
+    <img src="./imgs/tweet1.png" />
   </div>
 
   <div>Meaning</div>
@@ -120,6 +123,32 @@
     <a class="caption one" href="http://mapyourmemories.tumblr.com/mappingmanhattan">http://mapyourmemories.tumblr.com/mappingmanhattan</a>
     <img src="./imgs/becky-map0.jpg" />
   </div>
+  <div data-background-image="./imgs/becky-map8.jpg">
+    <a class="caption one" href="http://mapyourmemories.tumblr.com/mappingmanhattan">http://mapyourmemories.tumblr.com/mappingmanhattan</a>
+  </div>
+  <div data-background-image="./imgs/becky-map4.jpg">
+    <a class="caption one" href="http://mapyourmemories.tumblr.com/mappingmanhattan">http://mapyourmemories.tumblr.com/mappingmanhattan</a>
+  </div>
+  <div>
+    <a class="caption one" href="http://mapyourmemories.tumblr.com/mappingmanhattan">http://mapyourmemories.tumblr.com/mappingmanhattan</a>
+    <img src="./imgs/becky-map3.jpg" />
+  </div>
+  <div>
+    <a class="caption one" href="http://mapyourmemories.tumblr.com/mappingmanhattan">http://mapyourmemories.tumblr.com/mappingmanhattan</a>
+    <img src="./imgs/becky-map9.jpg" />
+  </div>
+  <div>
+    <a class="caption one" href="http://mapyourmemories.tumblr.com/mappingmanhattan">http://mapyourmemories.tumblr.com/mappingmanhattan</a>
+    <img src="./imgs/becky-map7.jpg" />
+  </div>
+  <div>
+    <a class="caption one" href="http://mapyourmemories.tumblr.com/mappingmanhattan">http://mapyourmemories.tumblr.com/mappingmanhattan</a>
+    <img src="./imgs/becky-map6.jpg" />
+  </div>
+  <div>
+    <a class="caption one" href="http://mapyourmemories.tumblr.com/mappingmanhattan">http://mapyourmemories.tumblr.com/mappingmanhattan</a>
+    <img src="./imgs/becky-map5.jpg" />
+  </div>
   <div data-background-image="./imgs/becky-map1.jpg">
     <a class="caption one" href="http://mapyourmemories.tumblr.com/mappingmanhattan">http://mapyourmemories.tumblr.com/mappingmanhattan</a>
   </div>
@@ -128,5 +157,6 @@
     <img src="./imgs/becky-map2.jpg" />
   </div>
 
+  <div>What's on <em>your</em> map?</div>
 </body>
 </html>
