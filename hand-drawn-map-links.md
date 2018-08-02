@@ -3,7 +3,7 @@
 These are just a few links to images, presentation videos, project walkthroughs, etc., which may be useful for seeing different kinds of hand-drawn maps, certain techniques, or simply some inspiration.
 
 Photos of some Erwin Raisz work from Harvard map collections:  
-https://www.dropbox.com/work/Photos/Raisz%20-%20Harvard
+https://www.dropbox.com/sh/a1v0znr2jchvbnl/AAAr4S2ce9mO7gDq2WcF67yra?dl=0
 
 Some maps from Maptime Boston's last hand-drawn maps meetup:  
 http://maptimeboston.github.io/event/2015/07/15/maptime/
