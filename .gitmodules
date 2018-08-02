@@ -1,0 +1,3 @@
+[submodule "cartographic-design"]
+	path = cartographic-design
+	url = https://github.com/maptimeBoston/cartographic-design.git
